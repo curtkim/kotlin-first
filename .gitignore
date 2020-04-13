@@ -1,0 +1,11 @@
+**/.gradle
+**/.idea
+**/build
+**/gradle
+**/gradle.properties
+**/gradlew.bat
+**/gradlew
+**/*.class
+**/*.jar
+**/*.kexe
+
