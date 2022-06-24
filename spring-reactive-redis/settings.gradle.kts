@@ -1,1 +1,1 @@
-rootProject.name = "spring-demo"
+rootProject.name = "spring-reactive-redis"
