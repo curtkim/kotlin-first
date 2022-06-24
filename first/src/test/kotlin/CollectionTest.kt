@@ -84,4 +84,10 @@ class CollectionTest {
             print("$key : $value")
         }
     }
+
+    @Test
+    fun first(){
+        assertEquals(4, (1..6).first { it > 3})
+        assertNull((1..6).firstOrNull() { it > 10})
+    }
 }
