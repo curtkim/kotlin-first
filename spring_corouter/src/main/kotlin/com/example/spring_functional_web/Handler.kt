@@ -3,6 +3,7 @@ package com.example.spring_functional_web
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.asFlow
 import org.springframework.stereotype.Component
+import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.reactive.function.server.*
 
 @Component

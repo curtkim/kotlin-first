@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.web.reactive.function.server.coRouter
 
 @Configuration
-class RouteConfig {
+open class RouteConfig {
 
     @FlowPreview
     @Bean
