@@ -25,6 +25,11 @@ dependencies {
     implementation 'com.github.kittinunf.fuel:fuel-gson:2.3.1'
     implementation 'com.github.kittinunf.fuel:fuel-coroutines:2.3.1'
 
+    implementation("io.arrow-kt:arrow-core:1.1.2")
+    //implementation("io.arrow-kt:arrow-syntax:1.1.2")
+    implementation("io.arrow-kt:arrow-fx:0.12.1")
+    implementation("io.arrow-kt:arrow-optics:1.1.2")
+
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test'
     testImplementation 'org.assertj:assertj-core:3.4.1'
