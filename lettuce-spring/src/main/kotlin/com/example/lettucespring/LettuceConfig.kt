@@ -29,7 +29,7 @@ class LettuceConfig {
     @Bean
     fun redisPool(client: RedisClient, uri: RedisURI): AsyncPool<StatefulRedisConnection<String, Any>> {
         return AsyncConnectionPoolSupport.createBoundedObjectPool(
-            { client.connectAsync(SerializedObjectCodec(), RedisURI.create(host, port))},
+            { client.connectAsync(SerializedObjectCodec(), uri)},
             BoundedPoolConfig.create()
         )
     }

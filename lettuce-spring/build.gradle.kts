@@ -18,7 +18,7 @@ repositories {
 dependencies {
 
 	implementation("io.lettuce:lettuce-core:6.1.8.RELEASE")
-	//implementation("org.springframework.boot:spring-boot-starter-webflux")
+	implementation("org.springframework.boot:spring-boot-starter-webflux")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
